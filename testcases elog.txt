@@ -1,0 +1,163 @@
+Mainswitch displays login cerdentials after giving a correct cerdentials
+will direct to another page where can see one logout button which direct 
+login page and 20 pages are avaliable where we can use as per the requeriments 
+this page are divided into 2 parts 
+
+1 In production order had 4 buutons 
+Find - entering the production order click on find button displays the results.
+   If wrong production order gives a pop ShopOrder# Does not Exist in Shop Order
+   table.Meanwhile it will displays Please Enter Production Order Number when 
+   not entering PO. 
+New - on clicking new button page presents new page where PO can entered , Material 
+    Number selects using dropdown list,pathway using dropdown list,and comments are
+    given .Create serial Numbers/Print labels has Create serial Numbers,beginning  serial
+    numbers and print lables choose as per requriments and click on save buuton
+Cancel - cancel the order request
+Close - will direct to main page and close the present page
+Goback - will direct to main page  
+ 
+2 Production information has serial number we can find . Comment box is available.Here New,Edit,Delete and Close buuton.
+New - this button will display to another page where we can have PO number,serial number,cs roller ,
+    cutter , ps roller, comment, and membrane information . clone,save and cancel.
+Edit- we can edit here
+Delete - delete in information 
+close -close the process
+Goback - will direct to main pages
+
+3 Wip where can check the process is going on by using stationid ,serial number and element status ,shift and completed 
+ as per the requriments. 
+New Record - can get new records which can find process is going 
+priority List - on clicking empty gets a pop "please select station ID"
+Go back -will direct to main pages
+
+4  BOM Routing Display has text which the production number and can get the csv data where shop order,material number,
+  quantity,requried BOM items,operation number and package detials are present according to the production number which 
+  need the BOM routing.
+  Go back -will direct to main pages
+
+5 IHR(InHouse Repair) has 4 button IHR Rolling,FRP Rework,IHR test and print
+  
+ IHR Rolling - on clicking it displays the production date, creation date,serial#,opertor 1 , station ,MLot#,shoporder,cs roller,
+   ps roler,defect code,tester,standard flow,nacl ,vaccum  and wip comment are colummn details are displays .
+FRP Rework - on clicking it displays production date, creation date,serial#,opertor 1 , station ,MLot#,shoporder,cs roller,
+   ps roler,defect code,tester,standard flow,nacl ,vaccum  and wip comm 
+IHR test - on clicking it displays as per requriment 
+print -can print as per requriments by using print button 
+ Go back -will direct to main pages
+
+6 WIP Report has one text where shop order number is entered and on clicking on the go button it displays the details of the shop order
+  which as is searched and there date available on current time . on clicking go button choosing a shop order number production order,
+  part number ,starting qty, status,not started,welding,leaf assembly,rolling,cutback,caging,sleeve,stretch net ,trim,chamfer,vaccum,atd,FRP 
+  prep,FRP,IHR rolling,FRP Rework,IHR test,BBT,wet test, preservation ,QC inspection,packaing and total details of the shop order requried are
+  dispays .
+  Go back -will direct to main pages
+
+7 Production Tracking Report 2 textbox are persent where serial number and shop order number entered as per the requriment the tracking of
+ production is displays on output clicking on the requried type like complete,incomplete,canceled and in process checkbox and clicking on 
+ the go button results are displays.
+ Go back -will direct to main pages
+ 
+8 Element tests here edit and finding of the element test 
+ new - using new button can enter detials as per the requriments and after entering scan in should be done.
+Find tests - find tests giving serial number from and to dates  and workcenter details there is a dropdowm of wet test,bubble test and 
+   vaccum test.
+Test run- this button for run the test which test should be preformed and priority list button as per the requrments
+Testing Recovery Calculator has 3 buttons 4"recovery,8"recovery,and dry weight as per the requriments .
+Few more buttons in down 
+MRQuery,Clone,Delete,MR number and Close are presents requriment purpose.
+Go back -will direct to main pages
+
+ 9 Find Current status page contains serial number text box and two button serach and close buttons .
+ serach - giving a correct serial number and serching that givings a result of current status , prod.order number and model number .
+ close - on clicking on the close button it closes present page .
+ Go back -will direct to main pages
+
+10 Complete Lookup consist of Serial number , shop order and Membrane textbox and each textbox have 3 go button giving the s/n,shop order 
+ and Membrane details of the completelookup is displays.
+ and on clicking on s/n gets a results of shop order,production and membrane info and element tests.
+ on clicking on shop order main lookup,and shop order details are displays.
+ Go back -will direct to main pages
+
+11 Print lables has 3 different print pages 
+   1 Print packaging lables entering the number on clicking on the exit button results are displays 
+    Go back -will direct to main page of print lables.
+    2 Rework Label consist of one text box of serial number on entering on the serial number and clicking on Go button displays the results 
+     regarding the serial number .
+     Go back -will direct to main page of print lables.  
+    3 Traveler labels contians of 10 text boxes and divide into two parts and one print button . On entering the shop order , part, roll date ,qty trimmer 
+      not entering the wrong part usings a message like "Entered part number does not exit " and on clicking on print give a correct part it will displays 
+       correct results .
+       Go back -will direct to main page of print lables.     
+
+12  Operator ID lookup has one textbox name as ID and one dropdown named as shift as 3 dropdown list of shift1,shift2 and shift3 .
+   on giving correct id and shift bellow Id, FIRST NAME , LASTNAME ,SHIFT and ACTIVE of the employee will be displays on the 
+   screen .
+    Go back -will direct to main pages
+
+13 Incomplete Mrs page gives the results number of records which are incomplete having the column as MR Number,Shop order number,serial number,material number,
+  IHR code,Flow,Rej,Stablized nacl passage,min rej,min flow,max flow,membrane lot#,test number , last modified and test comment .
+    Go back -will direct to main pages
+14 Sap interface contains 2 pages production order confirmation(Blackflush) and goods receipt to production order
+    1Production order confrimation has one checkbox ,production order and station has a dropdown list as per the requriment onclicking on the go button gives
+     requried results.
+     GO back - will direct to sap interface page
+    2 Goods receipt to production order has select all check box , station with dropdown list ,production order and classification code with dropdown list 
+     and go button gives a requried results 
+    GO back - will direct to sap interface page
+15  Element specification on clicking asks user authentication of userid and password of correct details on clicking on validate button opens on new page
+    New page has 3 items of element specification ,construction pathways and special instruction.
+   1 Element specification contians 3 buttons filter,save and new record. and different parts box named as part number,construction,process,salt type,pressure,
+   Concentrate and box labels according to requriments button displays resluts.Select all check box is present.
+     GO back - will direct to Element specification page 
+   2 Construction Pathways has two parts 
+     1 new pathways - has pathway text box , type dropdown ,outer wrap, membrane type and leaf assembly checkbox.
+                     3buttons of save will saves the given detials,cancel and close buttons .
+                     GO back - will direct to Construction Pathways  page 
+      2 Update/delete - has pathays dropdown,type,outerwrap,membrane type and leaf assembly checkbox.
+                        4buttons of save will saves the given detials,cancel,delete and close buttons .
+                         GO back - will direct to Construction Pathways  page 
+  3 Special Instruction contians the production order textbox and two button GO and cancel.On clicking the correct details gives requried results.If not got the
+    pop of PO not found.
+    GO back - will direct to Element specification page 
+16 Work scheducled contains 2 two items named as priority list and wet test scheduling .
+  1 Priority List contains of page size dropdown list box as per the requriment on entering the size results are displays
+    down table contains of priority,material description,production order,material number are displays.
+    Go back - will direct to work scheduclded page 
+  2 wet test scheduling as one save button which save the test.Gives a pop of "saved successfully".
+     Go back - will direct to work scheduclded page
+
+17  Administrative Functions on clicking asks user authentication of userid and password of correct details on clicking on validate button opens on new page
+    New page has 8 items
+  1 Manage Defect classification has two text box named as scrap code and desiption and a add button which gives the results
+    Go back - will direct Administrative Functions to page.
+  2 Manage wip report contains two textbox named as serial number and production and a dropdown with name IHR Rolling / FRP Rework. and a go button.On giving
+    giving both detials give a pop "Please Select Only One Value".
+     Go back - will direct Administrative Functions to page.
+  3 Operator id contains a 3 textbox of name id,fristname,lastname and ashift dropdown and active checkbox and also 4 button . Find button to find the id of
+    person and new button new employee finding, cancel button cancels the details ,and close button close the page .
+    Go back - will direct Administrative Functions to page.
+  4  Delete Production order has a one testbox named as production order and 3 buttons delete button delete the data,cancel button cancel the process and close button 
+    close the page .
+    Go back - will direct Administrative Functions to page.  
+  5 Scheduled Jobs has table of Id, Taskname , sceduled run time, reoccurance,stationid, taskcomplete and shift.
+    Go back - will direct Administrative Functions to page.
+  6 Mange Autoscan contains of the two textbox serial number and production order and a go button.on giving the wrong detials gives a pop of "please Select Proper Values".
+    Go back - will direct Administrative Functions to page.-------ManageAutoScan.aspx
+ 7 Manageuser printers contains two textbox of user and print of dropdown.on chossing correct detials displays the results.
+   Go back - will direct Administrative Functions to page.-----------ManageUsersPrinters.aspx
+8 Manage shift goals has a table of workcenter and goal column .
+Go back - will direct Administrative Functions to page.--------------
+18 Glue ratio calculation has two dropdowns of station and glue type and onetextbox of operator and a two button of calculate and clear buttons . Three tables of different 
+ purpose is going use Ratio calculation inputs of ywo parts of PartA and PartB.Glue ratio volume and ratio resukt tables . As per the requriements chossing acorrect table
+ and giving a values for the table calcuating of glue ratio is done,and clear button to clear the data.
+Go back -will direct to main pages
+ 
+19 Rolling cut length calculator has many text box as per requried results giving a detials in the textbox which are presnt and on clicking on the calculate button gives a 
+results of the rolling cut length calculator and another button of clear form which will clear the present form and give new form on clicking of the clear form button.
+Go back -will direct to main pages
+
+
+
+
+
+

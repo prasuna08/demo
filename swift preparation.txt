@@ -1,0 +1,952 @@
+First learn the difference between the ui and web development and 
+what technology should be used to the learn in depth like html ,css,javascript,angular,reactjs ,vuejs,typescript,AJAX etc 
+Had a basic knowledge in it and go for the depth code part for the another step 
+next step for the sql server database learning 
+How to debugg the code 
+learn on th small code sipnet 
+html and css learning 
+learn chatgpt
+Clustered index 
+the physical order of data in a table 
+
+works to do is to pratice the style in texting 
+ 
+
+HTML LEARNING:
+Hypertext Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+EXAMPLE:
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+Example Explained
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+HTML HEADINGS 
+
+To get headings we use <h></h >tags
+In html headings are started with h1 to h6 with opening and closing tags and content behind that tages 
+<h1>This is the heading</h1> here the tages  are h1 is big and h6 tag is small.
+
+HTML PARAGRAPHS :
+
+HTML paragraphs are defined with the <p> tag:
+Example
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p> 
+Note : a paaragraph always start with the next line .
+
+
+HTML LINKS :
+
+HTML links are defined with the <a> tag:
+Example
+<a href="https://www.w3schools.com">This is a link</a>
+The link's destination is specified in the href attribute. 
+
+Attributes are used to provide additional information about HTML elements.
+
+HTML IMAGES :
+
+HTML images are defined with the <img> tag.
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+Example
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+Empty HTML Elements:
+
+HTML elements with no content are called empty elements.
+The <br> tag defines a line break, and is an empty element without a closing tag:
+Example
+<p>This is a <br> paragraph with a line break.</p>
+
+All HTML elements can have attributes:
+
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+
+HTML Horizontal Rules:
+
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The <hr> element is used to separate content (or define a change) in an HTML page:
+Example
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+The <hr> tag is an empty tag,which means that it has no end tag
+To get the line between the text we will use the <hr> tag and hr tag doesnot contains any end tag 
+
+<pre> tag:
+
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+Example
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+
+Note:
+<p>	Defines a paragraph
+<hr>	Defines a thematic change in the content
+<br>	Inserts a single line break
+<pre>	Defines pre-formatted text
+
+HTML STYLES:
+
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+<p>I am normal</p>
+<p style="color:red;">I am red</p>
+<p style="color:blue;">I am blue</p>
+<p style="font-size:25px;">I am big</p>
+
+CHANGING BACKGROUND COLOR:
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+
+Text Color:
+The CSS color property defines the text color for an HTML element:
+Example
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+Fonts:
+The CSS font-family property defines the font to be used for an HTML element:
+Example
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+
+Text Size:
+The CSS font-size property defines the text size for an HTML element:
+Example
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+Text Alignment:
+The CSS text-align property defines the horizontal text alignment for an HTML element:
+Example
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+STYLE NOTE :
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+HTML FORMATING :
+
+<p><b>This text is bold</b></p>
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+HTML QUOTATIONS :
+
+HTML <blockquote> for Quotations::
+The HTML <blockquote> element defines a section that is quoted from another source.
+Browsers usually indent <blockquote> elements.
+
+HTML <q> for Short Quotations::
+The HTML <q> tag defines a short quotation.
+Browsers normally insert quotation marks around the quotation.
+<q></q>
+
+HTML <abbr> for Abbreviations::
+The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.
+<abbr></abbr> 
+
+HTML <address> for Contact Information::
+The HTML <address> tag defines the contact information for the author/owner of a document or an article.
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.
+<address></address>
+
+HTML <cite> for Work Title::
+The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+Note: A person's name is not the title of a work.
+The text in the <cite> element usually renders in italic.
+
+<abbr>	        Defines an abbreviation or acronym
+<address>       Defines contact information for the author/owner of a document
+<bdo>	        Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	        Defines the title of a work
+<q>	        Defines a short inline quotation
+
+HTML-CSS:
+
+What is CSS?
+Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background 
+images or background colors are to be used, different displays for different devices and screen sizes, and much more
+
+Using CSS::
+CSS can be added to HTML documents in 3 ways:
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+The most common way to add CSS, is to keep the styles in external CSS files. However, in this tutorial we will use inline and internal styles, because
+ this is easier to demonstrate, and easier for you to try it yourself.
+Tip: With an external style sheet, you can change the look of an entire web site, by changing one file!
+
+CSS Colors, Fonts and Sizes::
+
+Here, we will demonstrate some commonly used CSS properties. You will learn more about them later.
+The CSS color property defines the text color to be used.
+The CSS font-family property defines the font to be used.
+The CSS font-size property defines the text size to be used.
+Example:
+
+Use of CSS color, font-family and font-size properties:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+CSS Padding::
+The CSS padding property defines a padding (space) between the text and the border.
+Example:
+Use of CSS border and padding properties:
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+
+CSS PROPERTY::
+Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border
+
+HTML LINKS::
+
+Use target="_blank" to open the linked document in a new browser window or tab:
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+HTML Links - Use an Image as a Link::
+
+To use an image as a link, just put the <img> tag inside the <a> tag:
+Example
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+Chapter Summary LINKS::
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program.
+
+HTML Link Colors::
+By default, a link will appear like this (in all browsers):
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+Create a Bookmark in HTML::
+
+Bookmarks can be useful if a web page is very long.
+To create a bookmark - first create the bookmark, then add a link to it.
+When the link is clicked, the page will scroll down or up to the location with the bookmark.
+Example:
+First, use the id attribute to create a bookmark:
+<h2 id="C4">Chapter 4</h2>
+Then, add a link to the bookmark ("Jump to Chapter 4"), from within the same page:
+Example:
+<a href="#C4">Jump to Chapter 4</a>
+
+Chapter Summary:
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+
+HTML Images Syntax::
+The HTML <img> tag is used to embed an image in a web page.
+Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+The <img> tag has two required attributes:
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+Syntax
+<img src="url" alt="alternatetext">
+
+The src Attribute
+The required src attribute specifies the path (URL) to the image.
+Note: When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make 
+sure that the image actually stays in the same spot in relation to the web page, otherwise your visitors will get a broken link icon. The broken link 
+icon and the alt text are shown if the browser cannot find the image.
+
+The alt Attribute::
+The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error 
+in the src attribute, or if the user uses a screen reader).
+The value of the alt attribute should describe the image:
+
+Note: Always specify the width and height of an image. If width and height are not specified, the web page might flicker while the image loads.
+
+IMPORTANTS OF THE IMAGE TOPIC::
+
+APNG	Animated Portable Network Graphics	.apng
+GIF	Graphics Interchange Format	.gif
+ICO	Microsoft Icon	.ico, .cur
+JPEG	Joint Photographic Expert Group image	.jpg, .jpeg, .jfif, .pjpeg, .pjp
+PNG	Portable Network Graphics	.png
+SVG	Scalable Vector Graphics	.svg
+
+Chapter Summary::
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes or the CSS width and height properties to define the size of the image
+Use the CSS float property to let the image float to the left or to the right
+Note: Loading large images takes time, and can slow down your web page. Use images carefully.
+
+
+IMAGE MAP IN HTML ::
+ 
+Chapter Summary
+Use the HTML <map> element to define an image map
+Use the HTML <area> element to define the clickable areas in the image map
+Use the HTML usemap attribute of the <img> element to point to an image map
+
+HTML Favicon::
+
+A favicon is a small image displayed next to the page title in the browser tab.
+To add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder. A common name for a favicon image is "favicon.ico".
+Next, add a <link> element to your "index.html" file, after the <title> element, like this:
+Example:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+HTML PAGES TITLE:
+
+Every web page should have a page title to describe the meaning of the page.
+<head>
+  <title>HTML Tutorial</title>
+</head>
+
+The <title> element:
+defines a title in the browser toolbar
+provides a title for the page when it is added to favorites
+displays a title for the page in search engine-results
+
+HTML Tables:
+HTML tables allow web developers to arrange data into rows and columns.
+td stands for table data.
+Everything between <td> and </td> are the content of the table cell.
+Note: A table cell can contain all sorts of HTML elements: text, images, lists, links, other tables, etc.
+Table Rows:
+Each table row starts with a <tr> and ends with a </tr> tag.
+tr stands for table row.
+Table Headers:
+Sometimes you want your cells to be table header cells. In those cases use the <th> tag instead of the <td> tag:
+th stands for table header.
+
+HTML Table Tags::
+Tag	         Description
+<table>         Defines a table
+<th>	        Defines a header cell in a table
+<tr>	        Defines a row in a table
+<td>	        Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	        Specifies column properties for each column within a <colgroup> element
+<thead> 	Groups the header content in a table
+<tbody> 	Groups the body content in a table
+<tfoot>	        Groups the footer content in a table
+
+Header for Multiple Columns
+You can have a header that spans over two or more columns.
+<tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+
+Collapsed Table Borders::
+To avoid having double borders like in the example above, set the CSS border-collapse property to collapse.
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+HTML Table - Colspan:
+To make a cell span over multiple columns, use the colspan attribute:     
+Note: The value of the colspan attribute represents the number of columns to span.
+
+HTML Table - Rowspan:
+To make a cell span over multiple rows, use the rowspan attribute:
+Note: The value of the rowspan attribute represents the number of rows to span.
+
+HTML Table - Zebra Stripes:
+To style every other table row element, use the :nth-child(even) selector like this:
+Example
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+Note: If you use (odd) instead of (even), the styling will occur on row 1,3,5 etc. instead of 2,4,6 etc.
+
+HTML Table - Vertical Zebra Stripes
+To make vertical zebra stripes, style every other column, instead of every other row.
+Set the :nth-child(even) for table data elements like this:
+Example
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+Note: Put the :nth-child() selector on both th and td elements if you want to have the styling on both headers and regular table cells.
+
+Hoverable Table:
+which will change the color when it is placed on it .
+Use the :hover selector on tr to highlight table rows on mouse over:
+
+HTML Table Colgroup::
+The <colgroup> element is used to style specific columns of a table.
+HTML Table Colgroup
+If you want to style the two first columns of a table, use the <colgroup> and <col> elements.
+The <colgroup> element should be used as a container for the column specifications.
+Each group is specified with a <col> element.
+The span attribute specifies how many columns that get the style.
+The style attribute specifies the style to give the columns
+syntax of the colgrouping 
+ <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+  </colgroup>
+Note: The <colgroup> tag must be a child of a <table> element and should be placed before any other table elements, like <thead>, <tr>, <td> 
+etc., but after the <caption> element, if present.
+
+HTML Lists::
+HTML lists allow web developers to group a set of related items in lists.
+
+An unordered HTML list:
+.Item
+.Item
+.Item
+.Item
+An ordered HTML list:
+
+1.First item
+2.Second item
+3.Third item
+4.Fourth item
+
+Unordered HTML List:
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+The list items will be marked with bullets (small black circles) by default:
+Example:
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Ordered HTML List:
+An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+The list items will be marked with numbers by default:
+Example:
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+HTML Description Lists:
+HTML also supports description lists
+A description list is a list of terms, with a description of each term.
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+Example:
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+Tag	Description
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+
+Unordered HTML List - Choose List Item Marker
+The CSS list-style-type property is used to define the style of the list item marker. It can have one of the following values:
+Value	Description
+disc	- Sets the list item marker to a bullet (default)
+circle	- Sets the list item marker to a circle
+square	- Sets the list item marker to a square
+none	- The list items will not be marked
+Example - Disc
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+Note: A list item (<li>) can contain a new list, and other HTML elements, like images and links, etc
+
+Chapter Summary
+-Use the HTML <ul> element to define an unordered list
+-Use the CSS list-style-type property to define the list item marker
+-Use the HTML <li> element to define a list item
+-Lists can be nested
+-List items can contain other HTML elements
+-Use the CSS property float:left to display a list horizontally
+
+Ordered HTML List - The Type Attribute::
+The type attribute of the <ol> tag, defines the type of the list item marker:
+Type	      Description
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+
+Control List Counting::
+By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the start attribute:
+Example
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+HTML Block and Inline Elements:
+Every HTML element has a default display value, depending on what type of element it is.
+The two most common display values are block and inline.
+
+Block-level Elements:
+A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+Two commonly used block elements are: <p> and <div>.
+The <p> element defines a paragraph in an HTML document.
+The <div> element defines a division or a section in an HTML document.
+Here are the block-level elements in HTML:
+<address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header><hr><li><main>
+<nav><noscript><ol><p><pre><section><table><tfoot><ul><video>
+
+
+Inline Elements::
+An inline element does not start on a new line.
+An inline element only takes up as much width as necessary.
+This is a <span> element inside a paragraph.
+Example:
+<span>Hello World</span>
+Here are the inline elements in HTML:
+<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>
+Note: An inline element cannot contain a block-level element!
+
+The <div> Element:
+The <div> element is often used as a container for other HTML elements.
+The <div> element has no required attributes, but style, class and id are common.
+When used together with CSS, the <div> element can be used to style blocks of content:
+
+Chapter Summary:
+A block-level element always starts on a new line and takes up the full width available
+An inline element does not start on a new line and it only takes up as much width as necessary
+The <div> element is a block-level and is often used as a container for other HTML elements
+The <span> element is an inline container used to mark up a part of a text, or a part of a document.
+
+HTML Div Element::
+
+The <div> element is used as a container for other HTML elements.
+The <div> Element
+The <div> element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after.
+Example:
+A <div> element takes up all available width:
+Lorem Ipsum <div>I am a div</div> dolor sit amet.
+Result:
+Lorem Ipsum
+I am a div
+dolor sit amet.
+Note:
+The <div> element has no required attributes, but style, class and id are common.
+<div> as a container::
+The <div> element is often used to group sections of a web page together.
+Example:
+A <div> element with HTML elements:
+<div>
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+  <p>London has over 13 million inhabitants.</p>
+</div>
+Center align a <div> element:
+If you have a <div> element that is not 100% wide, and you want to center-align it, set the CSS margin property to auto.
+EXAMPLE:
+<style>
+div{
+width:300px;
+margin:auto;
+}
+</style>
+
+Aligning <div> elements side by side:
+When building web pages, you often want to have two or more <div> elements side by side
+There are different methods for aligning elements side by side, all include some CSS styling. We will look at the most common methods:
+
+Float:
+The CSS float property was not originally meant to align <div> elements side-by-side, but has been used for this purpose for many years.
+The CSS float property is used for positioning and formatting content and allow elements float next to each other instead of on top of each other.
+Example:
+<!DOCTYPE html>
+<html>
+<style>
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;  
+  float:left;
+}
+</style>
+<body>
+
+<div class="mycontainer">
+
+  <div style="background-color:#FFF4A3;">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>London has over 13 million inhabitants.</p>
+  </div>
+  
+  <div style="background-color:#FFC0C7;">
+    <h2>Oslo</h2>
+    <p>Oslo is the capital city of Norway.</p>
+    <p>Oslo has over 600.000 inhabitants.</p>
+  </div>
+  
+  <div style="background-color:#D9EEE1;">
+    <h2>Rome</h2>
+    <p>Rome is the capital city of Italy.</p>
+    <p>Rome has almost 3 million inhabitants.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
+HTML CLASSES::
+The HTML class attribute is used to specify a class for an HTML element.
+Multiple HTML elements can share the same class.
+Using The class Attribute:
+The class attribute is often used to point to a class name in a style sheet. 
+It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+Tip: The class attribute can be used on any HTML element.
+Note: The class name is case sensitive!
+The Syntax For Class
+To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties 
+within curly braces {}:
+Use of The class Attribute in JavaScript::
+The class name can also be used by JavaScript to perform certain tasks for specific elements.
+JavaScript can access elements with a specific class name with the getElementsByClassName() method:
+ Note: To add the two class for the on element we use "class="classname1 classname2""
+Chapter Summary:
+The HTML class attribute specifies one or more class names for an element
+Classes are used by CSS and JavaScript to select and access specific elements
+The class attribute can be used on any HTML element
+The class name is case sensitive
+Different HTML elements can point to the same class name
+JavaScript can access elements with a specific class name with the getElementsByClassName() method
+
+HTML id Attribute::
+The HTML id attribute is used to specify a unique id for an HTML element.
+You cannot have more than one element with the same id in an HTML document.
+Using The id Attribute:
+The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
+The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate
+the element with the specific id.
+The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+Note: The id name is case sensitive!
+Note: The id name must contain at least one character, cannot start with a number, and must not contain whitespaces (spaces, tabs, etc.).
+Difference Between Class and ID:
+A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:
+
+HTML Bookmarks with ID and Links:
+HTML bookmarks are used to allow readers to jump to specific parts of a webpage.
+Bookmarks can be useful if your page is very long.
+To use a bookmark, you must first create it, and then add a link to it.
+Then, when the link is clicked, the page will scroll to the location with the bookmark.
+
+Using The id Attribute in JavaScript:
+The id attribute can also be used by JavaScript to perform some tasks for that specific element.
+JavaScript can access an element with a specific id with the getElementById() method:
+Example:
+Use the id attribute to manipulate text with JavaScript:
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
+
+Chapter Summary:
+The id attribute is used to specify a unique id for an HTML element
+The value of the id attribute must be unique within the HTML document
+The id attribute is used by CSS and JavaScript to style/select a specific element
+The value of the id attribute is case sensitive
+The id attribute is also used to create HTML bookmarks
+JavaScript can access an element with a specific id with the getElementById() method
+
+HTML Iframes::
+An HTML iframe is used to display a web page within a web page.
+HTML Iframe Syntax:
+The HTML <iframe> tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.
+Syntax:
+<iframe src="url" title="description"></iframe>
+Tip: It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the iframe is.
+Iframe - Set Height and Width:
+Use the height and width attributes to specify the size of the iframe.
+The height and width are specified in pixels by default:
+Example:
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+Or you can add the style attribute and use the CSS height and width properties:
+Example:
+<iframe src="demo_iframe.htm" style="height:200px;width:300px;" title="Iframe Example"></iframe>
+
+Iframe - Remove the Border:
+By default, an iframe has a border around it.
+To remove the border, add the style attribute and use the CSS border property:
+Example
+<iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+With CSS, you can also change the size, style and color of the iframe's border:
+Example
+<iframe src="demo_iframe.htm" style="border:2px solid red;" title="Iframe Example"></iframe>
+
+Iframe - Target for a Link:
+An iframe can be used as the target frame for a link.
+The target attribute of the link must refer to the name attribute of the iframe:
+Example
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+Chapter Summary:
+The HTML <iframe> tag specifies an inline frame
+The src attribute defines the URL of the page to embed
+Always include a title attribute (for screen readers)
+The height and width attributes specify the size of the iframe
+Use border:none; to remove the border around the iframe
+
+HTML JavaScript::
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
+
+WE will more on javascript in later 
+
+HTML FILE PATH ::
+
+File Path Examples
+Path	                         Description
+<img src="picture.jpg">	         The "picture.jpg" file is located in the same folder as the current page
+<img src="images/picture.jpg">	 The "picture.jpg" file is located in the images folder in the current folder
+<img src="/images/picture.jpg">	 The "picture.jpg" file is located in the images folder at the root of the current web
+<img src="../picture.jpg">	 The "picture.jpg" file is located in the folder one level up from the current folder
+
+Absolute File Paths:
+An absolute file path is the full URL to a file:
+Example
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+Relative File Paths:
+A relative file path points to a file relative to the current page.
+In the following example, the file path points to a file in the images folder located at the root of the current web:
+Example:
+<img src="/images/picture.jpg" alt="Mountain">
+
+The HTML <meta> Element::
+The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+The metadata will not be displayed on the page, but is used by browsers (how to display content or reload page), by search engines (keywords), and other web services.
+examples
+Define the character set used:
+
+<meta charset="UTF-8">
+Define keywords for search engines:
+
+<meta name="keywords" content="HTML, CSS, JavaScript">
+Define a description of your web page:
+
+<meta name="description" content="Free Web tutorials">
+Define the author of a page:
+
+<meta name="author" content="John Doe">
+Refresh document every 30 seconds:
+
+<meta http-equiv="refresh" content="30">
+Setting the viewport to make your website look good on all devices:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Example of <meta> tags:
+
+Example
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="John Doe">
+
+Chapter Summary:
+The <head> element is a container for metadata (data about data)
+The <head> element is placed between the <html> tag and the <body> tag
+The <title> element is required and it defines the title of the document
+The <style> element is used to define style information for a single document
+The <link> tag is most often used to link to external style sheets
+The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings
+The <script> element is used to define client-side JavaScripts
+The <base> element specifies the base URL and/or target for all relative URLs in a page
+
+
+HTML Computer Code Elements::
+The <kbd> element defines keyboard input
+The <samp> element defines sample output from a computer program
+The <code> element defines a piece of computer code
+The <var> element defines a variable in programming or in a mathematical expression
+The <pre> element defines preformatted text
+
+HTML SEMANTICS:
+Semantic elements = elements with a meaning.
+What are Semantic Elements?
+A semantic element clearly describes its meaning to both the browser and the developer.
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+Learn different type of semantics elements from w3 schol becuase it contians more types.
+
+Below is a list of some of the semantic elements in HTML.
+
+Tag	Description
+<article>	Defines independent, self-contained content
+<aside>	Defines content aside from the page content
+<details>	Defines additional details that the user can view or hide
+<figcaption>	Defines a caption for a <figure> element
+<figure>	Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<footer>	Defines a footer for a document or section
+<header>	Specifies a header for a document or section
+<main>	        Specifies the main content of a document
+<mark>	        Defines marked/highlighted text
+<nav>	        Defines navigation links
+<section>	Defines a section in a document
+<summary>	Defines a visible heading for a <details> element
+<time>	        Defines a date/time
+
+NOTE:go through all the html styleguidence ,entities ,symbols 
+entities are used in html because of few mathematical and other symblos arenot preent in the keyboard on requring entities are used .
+
+URL - Uniform Resource Locator::
+Web browsers request pages from web servers by using a URL.
+A Uniform Resource Locator (URL) is used to address a document (or other data) on the web.
+A web address like https://www.w3schools.com/html/default.asp follows these syntax rules:
+scheme://prefix.domain:port/path/filename
+Explanation:
+scheme - defines the type of Internet service (most common is http or https)
+prefix - defines a domain prefix (default for http is www)
+domain - defines the Internet domain name (like w3schools.com)
+port - defines the port number at the host (default for http is 80)
+path - defines a path at the server (If omitted: the root directory of the site)
+filename - defines the name of a document or resource
+
+
+
+
+
+
+
+
