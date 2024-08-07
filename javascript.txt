@@ -1,0 +1,915 @@
+JAVASCRIPT:
+
+Js is a programming language.we use it to give instructions to the computer .
+
+console.log is used to log(print) a message to the console
+whatever written in console.log which is going to print
+
+<button type="button" onclick="document.getElementById('demo')"
+ 
+Javascript in html:
+
+The <script> Tag
+In HTML, JavaScript code is inserted between <script> and </script> tags.
+Example
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+
+JavaScript Functions and Events:
+
+A JavaScript function is a block of JavaScript code, that can be executed when "called" for.
+For example, a function can be called when an event occurs, like when the user clicks a button.
+how to write the function .....
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+
+***Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
+
+External JavaScript:
+
+Scripts can also be placed in external files:
+External scripts are practical when the same code is used in many different web pages.
+JavaScript files have the file extension .js.
+To use an external script, put the name of the script file in the src (source) attribute of a <script> tag:
+Example
+<script src="myScript.js"></script>
+You can place an external script reference in <head> or <body> as you like.
+The script will behave as if it was located exactly where the <script> tag is located.
+External scripts cannot contain <script> tags.
+Placing scripts in external files has some advantages:
+It separates HTML and code
+It makes HTML and JavaScript easier to read and maintain
+Cached JavaScript files can speed up page loads
+To add several script files to one page  - use several script tags:
+
+Example
+<script src="myScript1.js"></script>
+<script src="myScript2.js"></script>
+
+External References:
+
+An external script can be referenced in 3 different ways:
+With a full URL (a full web address)
+With a file path (like /js/)
+Without any path
+
+This example uses a full URL to link to myScript.js:
+Example
+<script src="https://www.w3schools.com/js/myScript.js"></script>
+
+This example uses a file path to link to myScript.js:
+Example
+<script src="/js/myScript.js"></script>
+
+This example uses no path to link to myScript.js:
+Example
+<script src="myScript.js"></script>
+
+JavaScript Display Possibilities:
+
+JavaScript can "display" data in different ways:
+1.Writing into an HTML element, using innerHTML.
+2.Writing into the HTML output using document.write().
+3.Writing into an alert box, using window.alert().
+4.Writing into the browser console, using console.log().
+
+1.<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+2.<script>
+document.write(5 + 6);
+</script>
+
+3.<script>
+window.alert(5 + 6);
+</script>
+You can skip the window keyword.
+
+In JavaScript, the window object is the global scope object.
+This means that variables, properties, and methods by default belong to the window object.
+This also means that specifying the window keyword is option
+
+<script>
+alert(5 + 6);
+</script>
+
+4.
+<script>
+console.log(5 + 6);
+</script>
+
+
+JavaScript Programs:
+
+A computer program is a list of "instructions" to be "executed" by a computer.
+In a programming language, these programming instructions are called statements.
+A JavaScript program is a list of programming statements
+
+Semicolons(;):
+
+Semicolons separate JavaScript statements.
+Add a semicolon at the end of each executable statement:
+
+When separated by semicolons, multiple statements on one line are allowed:
+a = 5; b = 6; c = a + b;
+
+Javascript keywords:
+
+Keyword	     Description
+var	     Declares a variable
+let	     Declares a block variable
+const	     Declares a block constant
+if	     Marks a block of statements to be executed on a condition
+switch	     Marks a block of statements to be executed in different cases
+for	     Marks a block of statements to be executed in a loop
+function     Declares a function
+return	     Exits a function
+try	     Implements error handling to a block of statements
+
+JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.
+
+--->The values can be of various types, such as numbers and strings.
+For example, "John" + " " + "Doe", evaluates to "John Doe":
+"John" + " " + "Doe"
+
+-->JavaScript is Case Sensitive
+All JavaScript identifiers are case sensitive. 
+The variables lastName and lastname, are two different variables:
+
+Underscore:
+first_name, last_name, master_card, inter_city.
+
+Upper Camel Case (Pascal Case):
+FirstName, LastName, MasterCard, InterCity.
+
+Lower Camel Case:
+JavaScript programmers tend to use camel case that starts with a lowercase letter:
+firstName, lastName, masterCard, interCity.
+
+Javascript comments:
+
+For the single line comment we will use //
+for the muli-line comments we will use /**/
+
+Javascript variables :
+
+Variables are Containers for Storing Data
+JavaScript Variables can be declared in 4 ways:
+1.Automatically
+2.Using var
+3.Using let
+4.Using const
+
+Note:
+The var keyword was used in all JavaScript code from 1995 to 2015.
+The let and const keywords were added to JavaScript in 2015.
+The var keyword should only be used in code written for older browsers.
+
+When to Use var, let, or const?
+
+1. Always declare variables
+2. Always use const if the value should not be changed
+3. Always use const if the type should not be changed (Arrays and Objects)
+4. Only use let if you can't use const
+5. Only use var if you MUST support old browsers.
+
+JavaScript Dollar Sign $:
+
+Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names:
+Using the dollar sign is not very common in JavaScript, but professional programmers often use it as an alias for the main function in a JavaScript library.
+In the JavaScript library jQuery, for instance, the main function $ is used to select HTML elements. In jQuery $("p"); means "select all p elements".
+
+
+JS Let:
+
+1.var x = 10;
+// Here x is 10
+
+{
+var x = 2;
+// Here x is 2
+}
+
+// Here x is 2
+
+
+2.let x = 10;
+// Here x is 10
+
+{
+let x = 2;
+// Here x is 2
+}
+
+// Here x is 10
+
+Difference Between var, let and const
+
+Scope	             Redeclare	            Reassign	       Hoisted	Binds this
+var	No	Yes	Yes	       Yes	              Yes
+let	Yes	No	Yes	       No	               No
+const	Yes	No	No	       No	               No
+
+What is Good?
+let and const have block scope.
+
+let and const can not be redeclared.
+
+let and const must be declared before use.
+
+let and const does not bind to this.
+
+let and const are not hoisted.
+
+What is Not Good?
+var does not have to be declared.
+
+var is hoisted.
+
+var binds to this.
+
+JS Const:
+
+Must be Assigned
+JavaScript const variables must be assigned a value when they are declared:
+
+-->Correct
+const PI = 3.14159265359;
+
+-->Incorrect
+const PI;
+PI = 3.14159265359;
+
+Constant Objects and Arrays:
+
+The keyword const is a little misleading.
+It does not define a constant value. It defines a constant reference to a value.
+
+Because of this you can NOT:
+
+Reassign a constant value
+Reassign a constant array
+Reassign a constant object
+
+But you CAN:
+
+Change the elements of constant array
+Change the properties of constant object
+
+Constant array:
+
+// You can create a constant array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// You can change an element:
+cars[0] = "Toyota";
+
+// You can add an element:
+cars.push("Audi");
+
+Constant Objects:
+
+You can change the properties of a constant object:
+
+Example
+// You can create a const object:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// You can change a property:
+car.color = "red";
+
+// You can add a property:
+car.owner = "Johnson";
+
+But you can NOT reassign the object:
+
+Example
+const car = {type:"Fiat", model:"500", color:"white"};
+
+car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
+
+Js operator:
+
+Types of JavaScript Operators
+
+There are different types of JavaScript operators:
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators
+
+Js datatype:
+
+JavaScript has 8 Datatypes
+String
+Number
+Bigint
+Boolean
+Undefined
+Null
+Symbol
+Object
+
+EXAMPLE:
+// Numbers:
+let length = 16;
+let weight = 7.5;
+
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Booleans
+let x = true;
+let y = false;
+
+// Object:
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
+
+Note
+A JavaScript variable can hold any type of data.
+
+
+Note:
+
+Most programming languages have many number types:
+
+Whole numbers (integers):
+byte (8-bit), short (16-bit), int (32-bit), long (64-bit)
+
+Real numbers (floating-point):
+float (32-bit), double (64-bit).
+
+Javascript numbers are always one type:
+double (64-bit floating point).
+
+JavaScript BigInt:
+
+All JavaScript numbers are stored in a 64-bit floating-point format.
+JavaScript BigInt is a new datatype (ES2020) that can be used to store
+integer values that are too big to be represented by a normal JavaScript Number.
+
+The typeof operator:
+
+You can use the JavaScript typeof operator to find the type of a JavaScript variable.
+The typeof operator returns the type of a variable or an expression:
+
+
+JavaScript Functions:
+
+A JavaScript function is a block of code designed to perform a particular task.
+A JavaScript function is executed when "something" invokes it (calls it).
+Example:
+// Function to compute the product of p1 and p2
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+
+JavaScript Function Syntax:
+
+A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)
+The code to be executed, by the function, is placed inside curly brackets: {}
+
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+
+Function parameters are listed inside the parentheses () in the function definition.
+Function arguments are the values received by the function when it is invoked.
+Inside the function, the arguments (the parameters) behave as local variables.
+
+creatingfunction:
+
+function greet(){
+console.log("hello world");
+}
+
+calling the function:
+
+greet();
+res: hello world
+
+passing the value to the function:
+
+function greeet()
+{
+return "hello world"
+}
+
+To excute:
+
+let str = greet()
+console.log(str);
+res: Hello world 
+
+
+passing  example:
+
+function greet(user)//accepting the value
+{
+ return `hello  ${user}`
+}
+
+let user ='navin'; )//passing the value
+let str =greet(user);
+console.log(str);
+
+function expression :
+
+How we call a not named  as function 
+
+let add = function(num1,num2)
+{
+ return num1+num2;
+} 
+
+let result = add(5,6)
+console.log(result);
+
+Local-goblal variable :
+ 
+inside the function is local and outside variable is global variable
+
+
+
+
+
+
+JavaScript Objects::
+
+
+An object literal is a list of name:value pairs inside curly braces {}.
+
+{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}
+Note:
+name:value pairs are also called key:value pairs.
+object literals are also called object initializers.
+
+Creating a JavaScript Object:
+
+These examples create a JavaScript object with 4 properties:
+Examples
+// Create an Object
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+Using the new Keyword:
+
+This example create a new JavaScript object using new Object(), and then adds 4 properties:
+Example
+// Create an Object
+const person = new Object();
+
+// Add Properties
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
+Note:
+The examples above do exactly the same.
+But, there is no need to use new Object().
+For readability, simplicity and execution speed, use the object literal method
+
+Example:
+
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+In the example above, this refers to the person object:
+this.firstName means the firstName property of person.
+this.lastName means the lastName property of person.
+
+***In JavaScript, Objects are King.
+If you Understand Objects, you Understand JavaScript.
+Objects are containers for Properties and Methods.
+
+Properties are named Values.
+Methods are Functions stored as Properties.
+Properties can be primitive values, functions, or even other objects.
+
+JS Object properties:
+
+An Object is an Unordered Collection of Properties
+Properties are the most important part of JavaScript objects.
+Properties can be changed, added, deleted, and some are read only.
+
+Let alien ={
+          name: 'prasu'
+          tech:'front end developer' 
+ 
+}
+
+console.log(alien['tech'])
+
+res: front end devloper 
+
+console.log(alien)
+
+res: prasu,front end devloper 
+
+complex object:
+
+
+Let alien ={
+          name: 'prasu'
+          tech:'front end developer' 
+          laptop:{
+                 cpu: 'i5'
+                 ram: 4,
+                 }
+}
+
+console.log(alien.laptop.ram);
+res: 4
+
+to delete:
+delete alien.ram 
+
+To print the all the objects:
+
+for(let key in alien)
+{
+ console.log(key,alien)
+} 
+
+
+Arrow Function in js:
+
+let greet = function(){
+    console.log("hello world");
+    return 1;
+
+}
+
+to excute:
+console.log(greet());
+
+Here the example without arrow function:
+
+let add = function(num1,num2)
+{
+ return num1+num2;
+} 
+
+let result = add(5,6)
+console.log(result);
+
+Here the example of the with arrow function:
+
+let add = (num1,numw2) =>num1+num2;
+ let  result = add(5,6)
+
+console.log(result)
+
+here the {} are not needed because of the single statement more than one statement {} are requried 
+
+What are Methods in javascript :
+
+let laptop ={
+          cpu:'i9'
+          ram: 16,
+          
+          greet: function(){
+                             console.log("hello world");
+
+                         }
+}
+
+
+to excute: laptop.greet();
+
+This keyword:
+
+this reference to the particular object & represent the correct object .
+
+whenever we want to compare two things we have to pass those parameters in by using the functions 
+ example is :
+function getFastLaptop(laptop1,laptop2)
+{
+ if (laptop1>laptop2){
+                    console.log(laptop1)   
+                     }
+
+  else{
+       console.log(laptop2)
+         }
+
+}
+
+
+to excute:
+getFastLaptop(laptop1,laptop2);
+
+
+
+Constructor function in js:
+
+function name starts with captial letter 
+new keyword it will create new object for you
+
+function Alien(name,tech){
+                this.name= name;
+                 thsis.tech=tech;   
+}
+
+to excute:
+
+let alien1 = new Alien('navin','js');
+console.log(alien1);
+
+
+let alien2 = new Alien('kiran','react')
+console.log(alien2);
+
+
+results:
+
+alien{name: 'navin',tech: 'js'}
+
+Creating array and fetching elements in js:
+
+let values = [5,4,6];
+
+console.log(values);
+res:[5,4,6]
+
+console.log(values.length);
+3
+
+other method:
+
+let values = [];
+values.push(5);
+console.log(values);
+res: [5]
+
+to fetch the one particular values:
+
+let values = [5,4,6];
+console.log(values[1]);
+res:4
+
+
+different types of data in array:
+1.
+let names =['pras','dev','sai'];
+console.log(names);
+res:['pras','dev','sai'];
+
+2.
+let names =['pras','dev','sai'];
+
+names[3] = 'prasu';
+
+console.log(name[2])
+
+res: sai
+
+3.let data = ['pras ',5,{tech: 'js'},
+   function(){console.lg("hello world ");}];
+console.log(data)
+res
+['pras ',5,{tech: 'js'},
+   function(){console.lg("hello world ");}]
+
+ARRAY METHOD IN JS:
+
+let data = [5,6,7];
+console.log(data.pop(7));
+res [5,6]
+
+console.log(data.shift());
+res [6,7]
+
+console.log(data.unshift(2));
+res:[2,6,7]
+
+console.log(data.splice(1));
+res[2,7]
+
+FOR-of LOOP IN ARRAY:
+
+let nums =[];
+ num[0] = 5;
+ num [99] = 9;
+
+for(let n of nums){
+console.log(n);
+}
+
+res: 5 undefined 99 
+
+Array destructuring in js:
+
+let nums =[5,6,7,8]
+let [a,b,c,d] = nums ;
+console.log(d);
+res: 8
+
+swaping numbers:
+
+let a=5;
+let b=9;
+[a,b] = [b,a]
+console.log(a,b);
+res: 9 5 
+
+Array of string :
+
+let words = "my name is prasuna ".split(' ');
+console.log(words);
+res: ['my', 'name','is' , 'prasuna']
+
+
+
+let words = "my name is prasuna ".split(' ');
+let [a,b,c,d] = words;
+console.log(d)
+res: prasuna 
+ 
+
+Array for each menthods in js :
+
+let nums =[1,2,3,4,5,6,7,8,9];
+nums.foreach((n=>
+{
+  console.log(n);
+
+});
+
+res: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
+let nums =[1,2,3,4,5,6,7,8,9];
+nums.foreach((n=>
+{
+  console.log(n*2);
+
+});
+
+res:
+2
+4
+6
+8
+10
+12
+14
+16
+18
+
+
+let nums =[1,2,3,4,5,6,7,8,9];
+nums.foreach((n,i,nums )=>)
+{
+  console.log(n,i,nums);
+
+});
+res:
+1 0 [1,2,3,4,5,6,7,8,9]
+2 1 [1,2,3,4,5,6,7,8,9]
+3 2 [1,2,3,4,5,6,7,8,9]
+.
+.
+.
+.
+.
+9 10 [1,2,3,4,5,6,7,8,9]
+
+Array method filter map reduce :
+
+let nums =[42,51,24,98,65,12];
+console.log(nums.filter(n => n%2==0 ));
+res : prints even numbers
+
+
+
+let nums =[42,51,24,98,65,12];
+nums.filter(n => n%2==0 )
+    .map(n=> n*2)
+    .foreach(n => {
+        console.log(n);
+
+});
+
+res
+84
+48
+196
+24
+
+let nums =[42,51,24,98,65,12];
+let result = nums.filter(n => n%2==0 )
+    .map(n=> n*2)
+    .reduce((a,b) => a+b);
+console.log(result)
+
+res :352
+
+set in js: introduce in es6
+
+let nums = new set("bookkeeper");
+console.log(nums);
+res: set(6){b,o,k,e,p,r} /* bcoz sets not repeat the values 
+
+
+
+let nums = new set("bookkeeper");
+console.log(nums.has(e));
+ res :true
+
+
+let nums = new set("bookkeeper");
+console.log(nums.has(u));
+res: false
+
+Map in js :
+
+TO storing the data , map is class , conllection of key values
+ 
+let map = new map();
+map.set("pras" ,"web devloper");
+map.set("dev","abap");
+
+console.log(map.get("pras"));
+
+res : webdevloper
+
+let map = new map();
+map.set("pras" ,"web devloper");
+map.set("dev","abap");
+for (let [k,v] of map){
+  console.log(k, ":" ,v);
+}
+ res :
+pras : web devloper 
+dev : abap 
+
+What is recursion :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
